@@ -18,7 +18,7 @@ We implement and compare two baselines — DivFL and S-FedAvg — then propose *
 
 ## Results
 
-![Task 3: Algorithm Robustness to Concept Drift](results/task3_fedcads_comparison.png)
+![Task 3: Algorithm Robustness to Concept Drift](results/FinalComparision(FedCADS-USB).png)
 
 | Algorithm | Pre-Drift (R50) | Round 60 | Final (R100) |
 |---|---|---|---|
