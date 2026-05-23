@@ -2,9 +2,9 @@
 
 **Federated CUSUM-Adaptive Discounted Shapley UCB**
 
-AI211 — Machine Learning Theory | Indian Institute of Technology Ropar
+AI211 — Machine Learning | Indian Institute of Technology Ropar
 
-Kush Mistry (2024AIB1368) · Rishi Datt Gupta (2024AIB1377) · I. Nikhil Varma (2024AIB1350) · Mentor: Shradha Sharma
+Nikhil Varma (2024AIB1350)  Kush Mistry (2024AIB1368)  Rishi Datt Gupta (2024AIB1377)   · Mentor: Shradha Sharma
 
 ---
 
