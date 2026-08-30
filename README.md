@@ -67,7 +67,7 @@ FedCADS-UCB-Client-Selection/
 ## The Three Algorithms
 
 ### DivFL
-Selects clients by greedily maximizing gradient diversity via a Facility Location objective. Guarantees (1 - 1/e)-optimal coverage of the client population. Converges fastest early on, but actively selects poisoned clients during drift because their anomalous gradients appear maximally diverse.
+Selects clients by greedily maximizing gradient diversity via a Facility Location objective. Converges fastest early on, but actively selects poisoned clients during drift because their anomalous gradients appear maximally diverse.
 
 ### S-FedAvg
 Measures each client's true marginal contribution to validation accuracy using Monte Carlo Shapley values. Maintains a per-client relevance score via exponential moving average (alpha=0.75) and selects probabilistically via softmax. Partially recovers from drift but slowly, because the fixed alpha cannot accelerate forgetting when damage accumulates quickly.
