@@ -88,7 +88,7 @@ Measures each client's true marginal contribution to validation accuracy using M
 For a coalition \(S\), let its utility be the validation accuracy after applying the coalition's average update:
 
 $$
-V(S)=\operatorname{Acc}\left(w_t+\frac{1}{|S|}\sum_{j\in S}\Delta_j\right), \quad S\ne\emptyset; \qquad V(\emptyset)=\operatorname{Acc}(w_t)
+V(S)=\text{Acc}\left(w_t+\frac{1}{|S|}\sum_{j\in S}\Delta_j\right), \quad S\ne\emptyset; \qquad V(\emptyset)=\text{Acc}(w_t)
 $$
 
 The Monte Carlo Shapley estimate averages each client's marginal contribution over \(R\) random permutations:
